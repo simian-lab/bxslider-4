@@ -1563,7 +1563,7 @@
      */
     el.destroySlider = function() {
       // don't do anything if slider has already been destroyed
-      if (!slider.initialized) { return; }
+      //if (!slider.initialized) { return; }
       slider.initialized = false;
       $('.bx-clone', this).remove();
       slider.children.each(function() {
